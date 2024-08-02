@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <p>
+        <form action="Post">
+            <fieldset>
+                <legend>Academic Details</legend>
+                Name: <input type="text"> <br>
+                Passing Year: <input type="number"> <br>
+                Institute Name: <input type="text">
+                Date Of Birth: <input type="date"><br>
+                Emails: <input type="text">
+                Location: <input type="text"> <br>
+            </fieldset>
+
+            <table>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="Username" value="suraj123" readonly></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="Email" placeholder="Enter valid Email"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="Password" id="" placeholder="Ente Password"></td>
+
+                </tr>
+                <tr>
+                    <td>Conform Password:</td>
+                    <td><input type="password"placeholder="Enter conform Password"></td>
+                </tr>
+                <tr>
+                    <td>Date of birth:</td>
+                    <td><input type="date" name="Date of birth" placeholder="Enter the Date of birth DD-MM_YY pattern"></td>
+                </tr>
+                <tr>
+                    <td>Quantity:</td>
+                    <td><input type="number" name="Quantity" id="" value="1"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" value="Male" name="Gender">Male
+                        <input type="radio" value="Female" name="Gender">Female
+                        <input type="radio" value="Other" name="Gender">other
+                    </td>
+                </tr>
+                <tr>
+                    <td>Location:</td>
+                    <td>
+                        <input type="checkbox"name="loc"value="">Thane
+                        <input type="checkbox"name="loc"value="">Dadar
+                        <input type="checkbox"name="loc"value="">Kalyan
+                        <input type="checkbox"name="loc"value="">Pune
+                        <input type="checkbox"name="loc"value="">Andheri
+                        <input type="checkbox"name="loc"value="">Borivali
+                        <input type="checkbox"name="loc"value="">Vashi
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="" id="" cols="5" rows="5" placeholder="Enter the Address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Graduation:</td>
+                    <td>
+                        <select name="Graduation" id="">
+                            <option value="BE">BE</option>
+                            <option value="Bcom">Bcom</option>
+                            <option value="Bsc">Bsc</option>
+                            <option value="BCA">BCA</option>
+                        </select>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="Submt" value="Register"></td>
+                </tr>
+            </table>
+        </form>
+        
+    </p>
+    
+
+    
+</body>
+</html>
